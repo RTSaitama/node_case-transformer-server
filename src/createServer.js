@@ -43,7 +43,7 @@ function createServer() {
     }
 
     try {
-      const result = convertToCase(text, toCase);
+      const result = convertToCase(toCase, text);
 
       const response = {
         originalCase: result.originalCase,
