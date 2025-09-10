@@ -14,10 +14,10 @@ const { wordsToCase } = require('./wordsToCase');
  *
  * @returns {Result}
  */
-function convertToCase(toCase, text) {
+function convertToCase(caseName, text) {
   const originalCase = detectCase(text);
   const words = toWords(text, originalCase);
-  const convertedText = wordsToCase(words, toCase);
+  const convertedText = wordsToCase(words, caseName);
 
   return { originalCase, convertedText };
 }
