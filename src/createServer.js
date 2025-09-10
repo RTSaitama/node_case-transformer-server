@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 const http = require('http');
-const { convertToCase } = require('./ConvertToCase');
+const { convertToCase } = require('./convertToCase');
 
 const validCases = ['SNAKE', 'KEBAB', 'CAMEL', 'PASCAL', 'UPPER'];
 
